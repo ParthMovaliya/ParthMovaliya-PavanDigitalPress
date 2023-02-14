@@ -3,6 +3,10 @@ body{
     text-align: center;
 }
 
+html,body{
+    overflow-x: hidden;
+}
+
 h1 {
     font-weight: bolder;
     padding: 2%;
@@ -63,11 +67,11 @@ h1 {
 .op_img {
     width: 100%;
     margin: 3%;
+    transition: transform .5s ease-in-out;
 }
 
 .op_img:hover {
-    transform: scale(1.5);
-    transition: transform .5s ease;
+    transform: scale(1.2);
     border: 1px solid black;
 }
 
